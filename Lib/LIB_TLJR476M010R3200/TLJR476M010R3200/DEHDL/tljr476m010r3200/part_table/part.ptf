@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'TLJR476M010R3200'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "MOUSER_TESTING_PART_NUMBER", "MOUSER_TESTING_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "AVX", "TLJR476M010R3200" (!) = "", "CAPPM2014X140N", "Capacitor Moulded Polarised", "581-TLJR476M10R3200", "https://www.mouser.co.uk/ProductDetail/AVX/TLJR476M010R3200?qs=WRdLm8viVpRFTfIUy8OazQ%3D%3D", "TLJR476M010R3200", "https://www.arrow.com/en/products/tljr476m010r3200/avx", "", "", "Tantalum Capacitors - Solid SMD 10volts 47uF 20% ESR=3200", "https://componentsearchengine.com/Datasheets/1/TLJR476M010R3200.pdf", "1.4 mm"
+END_PART
+
+END.

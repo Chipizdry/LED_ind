@@ -1,0 +1,129 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "TLJR476M010R3200"
+   (description "Tantalum Capacitors - Solid SMD 10volts 47uF 20% ESR=3200")
+   (family "CAP")
+   (package "CAPPM2014X140N")
+   (attribute "Datasheet Link" "https://componentsearchengine.com/Datasheets/1/TLJR476M010R3200.pdf")
+   (attribute "Geometry.Height" "1.4mm")
+   (attribute "Manufacturer_Name" "AVX")
+   (attribute "Manufacturer_Part_Number" "TLJR476M010R3200")
+   (attribute "Mouser Part Number" "581-TLJR476M10R3200")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/AVX/TLJR476M010R3200?qs=WRdLm8viVpRFTfIUy8OazQ%3D%3D")
+   (attribute "Arrow Part Number" "TLJR476M010R3200")
+   (attribute "Arrow Price/Stock" "https://www.arrow.com/en/products/tljr476m010r3200/avx")
+   (attribute "Mouser Testing Part Number" "")
+   (attribute "Mouser Testing Price/Stock" "")
+   (gate
+    (symbol "TLJR476M010R3200")
+    (pin "+" 1 PS)
+    (pin "-" 2 PS)
+   )
+  )
+  (symbol "TLJR476M010R3200"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 200 -100) (pt 230 -100) (pt 230 100) (pt 200 100) (closed))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 180 50) (pt 140 50))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 160 70) (pt 160 30))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 100 0) (pt 200 0))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 300 0) (pt 400 0))
+   )
+   (graphic
+    (stroke 10)
+    (path (closed true) (pt 300 100) (pt 300 -100) (pt 270 -100) (pt 270 100) (pt 300 100))
+   )
+   (terminal
+    (body (symbol "PINSHORT") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 0 -10) (rot 0) (just TOP LEFT) (visible false))
+    (number (pt 0 10) (rot 0) (just BOTTOM LEFT) (visible true)))
+   (terminal
+    (body (symbol "PINSHORT") (pt 500 0) (rot 0) (mir X) (visible true))
+    (name (pt 0 -10) (rot 0) (just TOP LEFT) (visible false))
+    (number (pt 0 10) (rot 0) (just BOTTOM LEFT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "CAPPM2014X140N"
+   (units MM)
+   (layer OCCA
+    (graphic
+     (stroke 0.05)
+     (path
+      (closed true)
+      (pt -1.9 1)
+      (pt 1.9 1)
+      (pt 1.9 -1)
+      (pt -1.9 -1)
+      (pt -1.9 1))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -1.025 0.675)
+      (pt 1.025 0.675)
+      (pt 1.025 -0.675)
+      (pt -1.025 -0.675)
+      (pt -1.025 0.675))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt -1.025 0.15)
+      (pt -0.5 0.675))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt 1.025 0.675)
+      (pt -1.65 0.675))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -1.025 -0.675)
+      (pt 1.025 -0.675))))
+   (leg 1 (pt -0.9 0) (padstack 0))
+   (leg 2 (pt 0.9 0) (padstack 0))
+   (padstack 0
+    (plated false)
+    (pad (layer TCOP) (rectf 1.05 1.5 0 0 0))
+   )
+   (model "TLJR476M010R3200.stp"
+    (euler 0 0 0)
+    (offset 0 0 0)
+   )
+  )
+ )
+)

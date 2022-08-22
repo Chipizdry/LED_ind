@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TLJR476M010R3200
+D Tantalum Capacitors - Solid SMD 10volts 47uF 20% ESR=3200
+K
+F https://componentsearchengine.com/Datasheets/1/TLJR476M010R3200.pdf
+$ENDCMP
+#
+#End Doc Library

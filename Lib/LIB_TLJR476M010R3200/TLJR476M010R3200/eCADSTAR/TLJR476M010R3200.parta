@@ -1,0 +1,70 @@
+(Japanese_coding: sjis)
+(function "ECS_959008"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2019-11-15-03:27:06)
+    (utime 2019-11-15-07:21:11)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+    )
+    (property "symbolName" "TLJR476M010R3200")
+)
+
+
+(pinAssign "ECS_959008"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2019-11-15-03:27:06)
+    (utime 2019-11-15-07:21:11)
+    (interface
+        (port "1" (symbPinId 1) (portName "+") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "-") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_959008")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "TLJR476M010R3200")
+)
+
+
+(part "TLJR476M010R3200"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2019-11-15-03:27:06)
+    (utime 2019-11-15-07:21:11)
+    (packageRef "TLJR476M010R3200")
+    (pinAssignRef "ECS_959008")
+    (interface
+        (port "1" (symbPinId 1) (portName "+") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "-") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "NO")
+    (property "refDesPrefix" "C")
+    (property "description" "Tantalum Capacitors - Solid SMD 10volts 47uF 20% ESR=3200")
+    (property "Manufacturer_Name" "AVX")
+    (property "Manufacturer_Part_Number" "TLJR476M010R3200")
+    (property "Mouser_Part_Number" "581-TLJR476M10R3200")
+    (property "Mouser_Price/Stock" "https://www.mouser.co.uk/ProductDetail/AVX/TLJR476M010R3200?qs=WRdLm8viVpRFTfIUy8OazQ%3D%3D")
+    (property "Arrow_Part_Number" "TLJR476M010R3200")
+    (property "Arrow_Price/Stock" "https://www.arrow.com/en/products/tljr476m010r3200/avx")
+    (property "Mouser_Testing_Part_Number" "")
+    (property "Mouser_Testing_Price/Stock" "")
+    (property "Datasheet_Link" "https://componentsearchengine.com/Datasheets/1/TLJR476M010R3200.pdf")
+    (property "compAreaTopHeight" 1.4)
+)
+
+

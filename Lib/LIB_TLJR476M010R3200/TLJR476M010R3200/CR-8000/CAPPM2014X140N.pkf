@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "CAPPM2014X140N"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "CAPPM2014X140N")
+        (spec "default")
+    )
+)

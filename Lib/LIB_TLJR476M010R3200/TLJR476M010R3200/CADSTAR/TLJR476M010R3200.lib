@@ -1,0 +1,20 @@
+.TLJR476M010R3200 :1 ;Tantalum Capacitors - Solid SMD 10volts 47uF 20% ESR=3200
+CAPPM2014X140N
+*STM C
+*NGS
+*PLB 1="+" 2="-"
+*MXP 2
+*DFN TLJR476M010R3200
+~!Manufacturer_Name (AVX)
+~!Manufacturer_Part_Number (TLJR476M010R3200)
+~!Mouser Part Number (581-TLJR476M10R3200)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/AVX/TLJR476M010R3200?qs=WRdLm8viVpRFTfIUy8OazQ%3D%3D)
+~!Arrow Part Number (TLJR476M010R3200)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/tljr476m010r3200/avx)
+~!Mouser Testing Part Number (-)
+~!Mouser Testing Price/Stock (-)
+~!Link Datasheet (https://componentsearchengine.com/Datasheets/1/TLJR476M010R3200.pdf)
+~!Height (1.4mm)
+~!3D_Model (TLJR476M010R3200)
+TLJR476M010R3200
+1.1!U 2.1!U 

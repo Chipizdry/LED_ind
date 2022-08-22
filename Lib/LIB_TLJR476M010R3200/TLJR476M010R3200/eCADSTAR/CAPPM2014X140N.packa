@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "TLJR476M010R3200"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2019-11-15-03:27:06)
+    (mountForm default
+        (footprintRef "CAPPM2014X140N")
+        (spec "System")
+    )
+)
