@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'LDS3985M33R'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "MOUSER_TESTING_PART_NUMBER", "MOUSER_TESTING_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "STMicroelectronics", "LDS3985M33R" (!) = "", "SOT95P280X145-5N", "SOT23 (5-Pin)", "511-LDS3985M33R", "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/LDS3985M33R?qs=DcAdhm6iCnom47SfkNYeVw%3D%3D", "LDS3985M33R", "https://www.arrow.com/en/products/lds3985m33r/stmicroelectronics?region=nac", "", "", "STMicroelectronics LDS3985M33R, Single Low Dropout Voltage Regulator, 300mA 3.3 V, 5-Pin SOT-23", "https://componentsearchengine.com/Datasheets/1/LDS3985M33R.pdf", "1.45 mm"
+END_PART
+
+END.

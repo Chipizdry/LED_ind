@@ -1,0 +1,9 @@
+Manufacturer=STMicroelectronics
+PartNumber=LDS3985M33R
+PartCategory=Integrated Circuit
+PackageCategory=SOT23 (5-Pin)
+PinCount=5
+Version=1.1
+Released=2018-02-22 05:38:08
+Downloaded=2022-08-19 12:55:06
+3D=Y

@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LDS3985M33R
+D STMicroelectronics LDS3985M33R, Single Low Dropout Voltage Regulator, 300mA 3.3 V, 5-Pin SOT-23
+K
+F https://componentsearchengine.com/Datasheets/1/LDS3985M33R.pdf
+$ENDCMP
+#
+#End Doc Library

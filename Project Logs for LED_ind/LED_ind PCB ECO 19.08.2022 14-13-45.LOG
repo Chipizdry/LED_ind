@@ -1,0 +1,3 @@
+Added Component: Designator=TP3(Test_Point)
+Added Pin To Net: NetName=GND Pin=TP3-1
+Added Member To Class: ClassName=LED_ind Member=Component TP3 Test_Point_PCB

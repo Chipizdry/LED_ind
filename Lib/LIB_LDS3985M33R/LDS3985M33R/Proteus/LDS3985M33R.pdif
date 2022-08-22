@@ -1,0 +1,130 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "LDS3985M33R"
+   (description "STMicroelectronics LDS3985M33R, Single Low Dropout Voltage Regulator, 300mA 3.3 V, 5-Pin SOT-23")
+   (family "ANA")
+   (package "SOT95P280X145-5N")
+   (attribute "Datasheet Link" "https://componentsearchengine.com/Datasheets/1/LDS3985M33R.pdf")
+   (attribute "Geometry.Height" "1.45mm")
+   (attribute "Manufacturer_Name" "STMicroelectronics")
+   (attribute "Manufacturer_Part_Number" "LDS3985M33R")
+   (attribute "Mouser Part Number" "511-LDS3985M33R")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/LDS3985M33R?qs=DcAdhm6iCnom47SfkNYeVw%3D%3D")
+   (attribute "Arrow Part Number" "LDS3985M33R")
+   (attribute "Arrow Price/Stock" "https://www.arrow.com/en/products/lds3985m33r/stmicroelectronics?region=nac")
+   (attribute "Mouser Testing Part Number" "")
+   (attribute "Mouser Testing Price/Stock" "")
+   (gate
+    (symbol "LDS3985M33R")
+    (pin "V1" 1 PS)
+    (pin "GND" 2 PS)
+    (pin "VINH" 3 PS)
+    (pin "BYPASS" 4 PS)
+    (pin "VO" 5 PS)
+   )
+  )
+  (symbol "LDS3985M33R"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 1000 100) (pt 1000 -300) (pt 200 -300) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -200) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1200 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1200 -100) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "SOT95P280X145-5N"
+   (units MM)
+   (layer OCCA
+    (graphic
+     (stroke 0.05)
+     (path
+      (closed true)
+      (pt -2.075 1.725)
+      (pt 2.075 1.725)
+      (pt 2.075 -1.725)
+      (pt -2.075 -1.725)
+      (pt -2.075 1.725))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -0.8 1.475)
+      (pt 0.8 1.475)
+      (pt 0.8 -1.475)
+      (pt -0.8 -1.475)
+      (pt -0.8 1.475))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt -0.8 0.525)
+      (pt 0.15 1.475))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt -0.325 1.475)
+      (pt 0.325 1.475)
+      (pt 0.325 -1.475)
+      (pt -0.325 -1.475)
+      (pt -0.325 1.475))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -1.825 1.5)
+      (pt -0.675 1.5))))
+   (leg 1 (pt -1.25 0.95) (padstack 0))
+   (leg 2 (pt -1.25 0) (padstack 0))
+   (leg 3 (pt -1.25 -0.95) (padstack 0))
+   (leg 4 (pt 1.25 -0.95) (padstack 0))
+   (leg 5 (pt 1.25 0.95) (padstack 0))
+   (padstack 0
+    (plated false)
+    (pad (layer TCOP) (rectf 0.6 1.15 0 0 0))
+   )
+   (model "LDS3985M33R.stp"
+    (euler 0 0 0)
+    (offset 0 0 0)
+   )
+  )
+ )
+)
