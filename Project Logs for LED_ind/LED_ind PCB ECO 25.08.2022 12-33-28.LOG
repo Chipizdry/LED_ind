@@ -1,0 +1,33 @@
+Removed Pin From Net: NetName=NetR12_1 Pin=U1-19
+Change Component Footprint: Designator=R1 Old Footprint=Vishay_CRCW0603-e3_IPC_A New Footprint=Vishay_CRCW0402-e3_IPC_C
+Change Component Footprint: Designator=R2 Old Footprint=Vishay_CRCW0603-e3_IPC_A New Footprint=Vishay_CRCW0402-e3_IPC_C
+Change Component Footprint: Designator=R3 Old Footprint=Vishay_CRCW0603-e3_IPC_A New Footprint=Vishay_CRCW0402-e3_IPC_C
+Change Component Footprint: Designator=R4 Old Footprint=Vishay_CRCW0603-e3_IPC_A New Footprint=Vishay_CRCW0402-e3_IPC_C
+Change Component Footprint: Designator=R5 Old Footprint=Vishay_CRCW0603-e3_IPC_A New Footprint=Vishay_CRCW0402-e3_IPC_C
+Change Component Footprint: Designator=R6 Old Footprint=Vishay_CRCW0603-e3_IPC_A New Footprint=Vishay_CRCW0402-e3_IPC_C
+Change Component Footprint: Designator=R7 Old Footprint=Vishay_CRCW0603-e3_IPC_A New Footprint=Vishay_CRCW0402-e3_IPC_C
+Change Component Footprint: Designator=R8 Old Footprint=Vishay_CRCW0603-e3_IPC_A New Footprint=Vishay_CRCW0402-e3_IPC_C
+Change Component Footprint: Designator=R9 Old Footprint=Vishay_CRCW0603-e3_IPC_A New Footprint=Vishay_CRCW0402-e3_IPC_C
+Change Component Footprint: Designator=R10 Old Footprint=Vishay_CRCW0603-e3_IPC_A New Footprint=Vishay_CRCW0402-e3_IPC_C
+Change Component Footprint: Designator=R11 Old Footprint=Vishay_CRCW0603-e3_IPC_A New Footprint=Vishay_CRCW0402-e3_IPC_C
+Change Component Footprint: Designator=R12 Old Footprint=Vishay_CRCW0603-e3_IPC_A New Footprint=Vishay_CRCW0402-e3_IPC_C
+Change Component Footprint: Designator=R13 Old Footprint=Vishay_CRCW0603-e3_IPC_A New Footprint=Vishay_CRCW0402-e3_IPC_C
+Change Component Footprint: Designator=R14 Old Footprint=Vishay_CRCW0603-e3_IPC_A New Footprint=Vishay_CRCW0402-e3_IPC_C
+Change Component Footprint: Designator=R15 Old Footprint=Vishay_CRCW0603-e3_IPC_A New Footprint=Vishay_CRCW0402-e3_IPC_C
+Change Component Footprint: Designator=R16 Old Footprint=Vishay_CRCW0603-e3_IPC_A New Footprint=Vishay_CRCW0402-e3_IPC_C
+Change Component Footprint: Designator=R17 Old Footprint=Vishay_CRCW0603-e3_IPC_A New Footprint=Vishay_CRCW0402-e3_IPC_C
+Change Component Footprint: Designator=R18 Old Footprint=Vishay_CRCW0603-e3_IPC_A New Footprint=Vishay_CRCW0402-e3_IPC_C
+Added Component: Designator=C?(CAPPM2014X140N)
+Add component (AddParameter): Name = "Arrow Part Number"; Value = "TLJR476M010R3200"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Arrow Price/Stock"; Value = "https://www.arrow.com/en/products/tljr476m010r3200/avx"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Link"; Value = "https://componentsearchengine.com/Datasheets/1/TLJR476M010R3200.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "1.4mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "AVX"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "TLJR476M010R3200"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Part Number"; Value = "581-TLJR476M10R3200"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/AVX/TLJR476M010R3200?qs=WRdLm8viVpRFTfIUy8OazQ%3D%3D"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Testing Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Testing Price/Stock"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetR12_1 Pin=U1-9
+Added Member To Class: ClassName=LED_ind Member=Component C? TLJR476M010R3200
+Added Member To Class: ClassName=LED_ind Member=Component R12 CRCW06031K00FKEA
