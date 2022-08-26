@@ -1,0 +1,24 @@
+Output: Gerber Files
+Type  : Gerber
+From  : Variant [[No Variations]] of Project [LED_ind.PrjPcb]
+   Generated File[LED_ind.GTO]
+   Generated File[LED_ind.GTP]
+   Generated File[LED_ind.GTS]
+   Generated File[LED_ind.GTL]
+   Generated File[LED_ind.GBL]
+   Generated File[LED_ind.GBS]
+   Generated File[LED_ind.GBP]
+   Generated File[LED_ind.GBO]
+   Generated File[LED_ind.GM1]
+   Generated File[LED_ind.GPT]
+   Generated File[LED_ind.GPB]
+   Generated File[LED_ind.GD1]
+   Generated File[LED_ind.RUL]
+   Generated File[LED_ind.EXTREP]
+   Generated File[LED_ind.REP]
+
+
+Files Generated   : 15
+Documents Printed : 0
+
+Finished Output Generation At 14:13:57 On 26.08.2022
