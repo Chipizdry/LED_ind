@@ -1,4 +1,4 @@
-DRC Rules Export File for PCB: C:\Users\Администратор\Documents\GitHub\LED_ind\LED_ind.PcbDoc
+DRC Rules Export File for PCB: C:\Users\МИР\Downloads\LED_ind-main (3)\LED_ind-main\LED_ind.PcbDoc
 RuleKind=SolderMaskExpansion|RuleName=SolderMaskExpansion|Scope=Board|Minimum=4.00
 RuleKind=Width|RuleName=Width|Scope=Board|Minimum=6.30
 RuleKind=Clearance|RuleName=Clearance|Scope=Board|Minimum=10.00

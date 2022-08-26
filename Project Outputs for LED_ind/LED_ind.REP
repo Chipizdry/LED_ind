@@ -2,55 +2,6 @@
 FileName = LED_ind.GBR
 AutoAperture = True
 *************************************************************
-Generating : Top Paste
-      File : LED_ind.GTP
-
-    Adding Layer      : Top Paste
-
-    Adding Layer      : Top Layer
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D14
-    D15
-    D16
-    D17
-    D18
-    D19
-    D20
-    D21
-*************************************************************
-
-*************************************************************
-Generating : Bottom Paste
-      File : LED_ind.GBP
-
-    Adding Layer      : Bottom Paste
-
-    Adding Layer      : Bottom Layer
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D14
-    D17
-    D20
-    D32
-    D33
-    D34
-    D35
-    D36
-    D37
-    D38
-    D39
-    D40
-    D41
-*************************************************************
-
-*************************************************************
 Generating : Top Layer
       File : LED_ind.GTL
 
@@ -85,8 +36,8 @@ Generating : Bottom Layer
 
 
 Used DCodes :
-    D14
     D17
+    D18
     D20
     D27
     D28
@@ -106,6 +57,67 @@ Used DCodes :
 *************************************************************
 
 *************************************************************
+Generating : Mechanical 1
+      File : LED_ind.GM1
+
+    Adding Layer      : Mechanical 1
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Bottom Overlay
+      File : LED_ind.GBO
+
+    Adding Layer      : Bottom Overlay
+
+
+Used DCodes :
+    D10
+    D12
+    D13
+    D43
+    D44
+*************************************************************
+
+*************************************************************
+Generating : Top Overlay
+      File : LED_ind.GTO
+
+    Adding Layer      : Top Overlay
+
+
+Used DCodes :
+    D10
+    D11
+    D12
+    D13
+*************************************************************
+
+*************************************************************
+Generating : Top Pad Master
+      File : LED_ind.GPT
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D14
+    D15
+    D16
+    D17
+    D18
+    D19
+    D20
+    D21
+    D28
+    D29
+*************************************************************
+
+*************************************************************
 Generating : Bottom Pad Master
       File : LED_ind.GPB
 
@@ -115,8 +127,8 @@ Generating : Bottom Pad Master
 
 
 Used DCodes :
-    D14
     D17
+    D18
     D20
     D28
     D29
@@ -145,11 +157,11 @@ Generating : Top Solder
 
 Used DCodes :
     D14
-    D15
     D16
     D17
+    D18
+    D19
     D20
-    D21
     D22
     D23
     D24
@@ -169,8 +181,8 @@ Generating : Bottom Solder
 
 
 Used DCodes :
-    D14
     D17
+    D18
     D20
     D24
     D25
@@ -188,51 +200,37 @@ Used DCodes :
 *************************************************************
 
 *************************************************************
-Generating : Top Overlay
-      File : LED_ind.GTO
+Generating : Bottom Paste
+      File : LED_ind.GBP
 
-    Adding Layer      : Top Overlay
+    Adding Layer      : Bottom Paste
 
+    Adding Layer      : Bottom Layer
 
-Used DCodes :
-    D10
-    D11
-    D12
-    D13
-*************************************************************
-
-*************************************************************
-Generating : Bottom Overlay
-      File : LED_ind.GBO
-
-    Adding Layer      : Bottom Overlay
+    Adding Layer      : Multi-Layer
 
 
 Used DCodes :
-    D11
-    D12
-    D13
-    D43
-    D44
+    D17
+    D18
+    D20
+    D32
+    D33
+    D34
+    D35
+    D36
+    D37
+    D38
+    D39
+    D40
+    D41
 *************************************************************
 
 *************************************************************
-Generating : Mechanical 1
-      File : LED_ind.GM1
+Generating : Top Paste
+      File : LED_ind.GTP
 
-    Adding Layer      : Mechanical 1
-
-
-Used DCodes :
-    D12
-    D13
-    D45
-    D46
-*************************************************************
-
-*************************************************************
-Generating : Top Pad Master
-      File : LED_ind.GPT
+    Adding Layer      : Top Paste
 
     Adding Layer      : Top Layer
 
@@ -248,8 +246,6 @@ Used DCodes :
     D19
     D20
     D21
-    D28
-    D29
 *************************************************************
 
 *************************************************************
@@ -262,7 +258,7 @@ Generating : Drill Drawing
 
 
 Used DCodes :
-    D47
-    D48
+    D45
+    D46
 *************************************************************
 
