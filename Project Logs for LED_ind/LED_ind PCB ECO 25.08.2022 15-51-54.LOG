@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=NetR12_1 Pin=U1-9
+Change Component Designator: OldDesignator=R? NewDesignator=R19
+Added Pin To Net: NetName=NetR12_1 Pin=U1-19
+Change Net Name : Old Net Name=NetR?_1 New Net Name=NetR19_1

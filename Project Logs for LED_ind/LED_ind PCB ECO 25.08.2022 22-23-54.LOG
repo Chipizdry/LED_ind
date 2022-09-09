@@ -1,0 +1,6 @@
+Added Pin To Net: NetName=GND Pin=D1-2
+Added Pin To Net: NetName=GND Pin=D2-2
+Added Pin To Net: NetName=GND Pin=D5-2
+Added Pin To Net: NetName=GND Pin=D14-2
+Added Member To Class: ClassName=LED_ind Member=Component C6 TAJA106K006RNJ
+Added Member To Class: ClassName=LED_ind Member=Component TP2 Test_Point_PCB

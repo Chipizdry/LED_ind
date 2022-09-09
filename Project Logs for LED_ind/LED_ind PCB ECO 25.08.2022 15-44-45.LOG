@@ -1,0 +1,4 @@
+Added Component: Designator=R?(Vishay_CRCW0402-e3_IPC_A)
+Added Pin To Net: NetName=NetR?_1 Pin=R?-1
+Added Pin To Net: NetName=GND Pin=R?-2
+Added Member To Class: ClassName=LED_ind Member=Component R? 10K

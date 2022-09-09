@@ -1,0 +1,56 @@
+Removed Pin From Net: NetName=GND Pin=C5-1
+Removed Pin From Net: NetName=GND Pin=IC1-2
+Removed Pin From Net: NetName=VCC Pin=IC1-5
+Removed Pin From Net: NetName=GND Pin=R16-2
+Removed Pin From Net: NetName=NetR12_1 Pin=U1-19
+Removed Member From Class: ClassName=LED_ind Member=IC1
+Removed Member From Class: ClassName=LED_ind Member=R16
+Change Component Footprint: Designator=C5 Old Footprint=Kemet_C0402-BB_IPC_A New Footprint=TAJA_AVX-L
+Change Component Footprint: Designator=R1 Old Footprint=Vishay_CRCW0603-e3_IPC_A New Footprint=Vishay_CRCW0402-e3_IPC_C
+Change Component Footprint: Designator=R2 Old Footprint=Vishay_CRCW0603-e3_IPC_A New Footprint=Vishay_CRCW0402-e3_IPC_C
+Change Component Footprint: Designator=R3 Old Footprint=Vishay_CRCW0603-e3_IPC_A New Footprint=Vishay_CRCW0402-e3_IPC_C
+Change Component Footprint: Designator=R4 Old Footprint=Vishay_CRCW0603-e3_IPC_A New Footprint=Vishay_CRCW0402-e3_IPC_C
+Change Component Footprint: Designator=R5 Old Footprint=Vishay_CRCW0603-e3_IPC_A New Footprint=Vishay_CRCW0402-e3_IPC_C
+Change Component Footprint: Designator=R6 Old Footprint=Vishay_CRCW0603-e3_IPC_A New Footprint=Vishay_CRCW0402-e3_IPC_C
+Change Component Footprint: Designator=R7 Old Footprint=Vishay_CRCW0603-e3_IPC_A New Footprint=Vishay_CRCW0402-e3_IPC_C
+Change Component Footprint: Designator=R8 Old Footprint=Vishay_CRCW0603-e3_IPC_A New Footprint=Vishay_CRCW0402-e3_IPC_C
+Change Component Footprint: Designator=R9 Old Footprint=Vishay_CRCW0603-e3_IPC_A New Footprint=Vishay_CRCW0402-e3_IPC_C
+Change Component Footprint: Designator=R10 Old Footprint=Vishay_CRCW0603-e3_IPC_A New Footprint=Vishay_CRCW0402-e3_IPC_C
+Change Component Footprint: Designator=R11 Old Footprint=Vishay_CRCW0603-e3_IPC_A New Footprint=Vishay_CRCW0402-e3_IPC_C
+Change Component Footprint: Designator=R12 Old Footprint=Vishay_CRCW0603-e3_IPC_A New Footprint=Vishay_CRCW0402-e3_IPC_C
+Change Component Footprint: Designator=R13 Old Footprint=Vishay_CRCW0603-e3_IPC_A New Footprint=Vishay_CRCW0402-e3_IPC_C
+Change Component Footprint: Designator=R14 Old Footprint=Vishay_CRCW0603-e3_IPC_A New Footprint=Vishay_CRCW0402-e3_IPC_C
+Change Component Footprint: Designator=R15 Old Footprint=Vishay_CRCW0603-e3_IPC_A New Footprint=Vishay_CRCW0402-e3_IPC_C
+Change Component Footprint: Designator=R17 Old Footprint=Vishay_CRCW0603-e3_IPC_A New Footprint=Vishay_CRCW0402-e3_IPC_C
+Change Component Footprint: Designator=R18 Old Footprint=Vishay_CRCW0603-e3_IPC_A New Footprint=Vishay_CRCW0402-e3_IPC_C
+Change Component Comment : Designator=C5 Old Comment=C0805C104J4RACTU New Comment=TAJA106K006RNJ
+Change component parameters: Designator = "C5" ("C5"); Footprint = "Kemet_C0402-BB_IPC_A"; UniqueID = "\NMVOPCSJ" ("\NMVOPCSJ")
+Change component parameters (AddParameter): Name = "Copyright"; Value = "Copyright (C) 2022 Ultra Librarian. All rights reserved."; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "TAJA106K006RNJ"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mfr_Name"; Value = "KYOCERA AVX"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RefDes"; Value = "RefDes"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Type"; Value = "DEV"; VariantName = "[No Variations]"
+Added Component: Designator=U2(D0008A_N)
+Add component (AddParameter): Name = "Copyright"; Value = "Copyright (C) 2022 Ultra Librarian. All rights reserved."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "LP2951-30D"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mfr_Name"; Value = "Texas Instruments"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RefDes"; Value = "RefDes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "DEV"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=C5-2
+Added Pin To Net: NetName=NetR12_1 Pin=U1-9
+Added Pin To Net: NetName=VCC Pin=U2-1
+Added Pin To Net: NetName=VCC Pin=U2-2
+Added Pin To Net: NetName=GND Pin=U2-3
+Added Pin To Net: NetName=GND Pin=U2-4
+Added Pin To Net: NetName=NetC5_1 Pin=C5-1
+Added Pin To Net: NetName=NetC5_1 Pin=R15-2
+Added Pin To Net: NetName=NetC5_1 Pin=U2-8
+Added Net: Name=NetC5_1
+Added Pin To Net: NetName=NetR15_1 Pin=R15-1
+Added Pin To Net: NetName=NetR15_1 Pin=U2-5
+Added Net: Name=NetR15_1
+Added Pin To Net: NetName=NetU2_6 Pin=U2-6
+Added Pin To Net: NetName=NetU2_6 Pin=U2-7
+Added Net: Name=NetU2_6
+Added Member To Class: ClassName=LED_ind Member=Component R12 CRCW06031K00FKEA
+Added Member To Class: ClassName=LED_ind Member=Component U2 LP2951-30D
